@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/srinivasbe-07/onlinebooking/tree/master/configuration-server
+server:
+  port: 8888
